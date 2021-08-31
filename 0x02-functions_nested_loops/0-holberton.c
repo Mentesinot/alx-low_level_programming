@@ -1,18 +1,20 @@
 #include "holberton.h"
 
-
-
+/**
+* main - Print the word "Holberton"
+*
+* Return: Always 0 (Success)
+*/
 
 int main(void)
-
 {
-	int str[] = {72, 111, 108, 98, 101, 114, 116, 111, 110};
-	int count, sz;
+	int i;
+	char p[] = "Holberton";
 
-	sz = sizeof(str) / sizeof(int);
-	for (count = 0; count < sz; count++)
-	{
-		_putchar(str[count]);
-	}
-	_putchar('\n');
+	for (i = 0; i < 9; i++)
+		{
+		_putchar(p[i]);
+		}
+		_putchar('\n');
 	return (0);
+}
