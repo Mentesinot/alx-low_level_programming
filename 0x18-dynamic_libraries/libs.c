@@ -25,4 +25,3 @@ int c;
 c = a % b;
 return (c);
 }
-
